@@ -1,0 +1,92 @@
+body {
+  background-color: rgb(163, 210, 206);
+  margin: 0px;
+  width: 1000px;
+  height: auto;
+
+  flex-direction: column;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure {
+  margin: 0;
+  padding: 0;
+}
+.menubar {
+  margin: 0px;
+  background-color: aliceblue;
+  padding: 10px;
+}
+.menubar ul li {
+  display: inline;
+  margin-left: 10px;
+  padding: 5px 5px;
+}
+.menuowen {
+  display: inline-block;
+  background-color: antiquewhite;
+}
+#OWEN {
+  font-size: 30px;
+  padding: 15px;
+}
+
+#ikigai-buynow {
+  padding: 5px;
+  margin: 5px 0px;
+  text-align: center;
+  background-color: rgb(203, 203, 203);
+}
+.content1 {
+  display: flex;
+}
+
+.khuc2 {
+  width: 700px;
+  height: 100%;
+  overflow: hidden;
+}
+.khuc2 > #anh1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.khuc1 {
+  background-color: white;
+  width: 300px;
+  padding: 40px 100px;
+}
+.khuc1 > p:last-child {
+  font-size: 10px;
+}
+#ikigai {
+  font-size: 76px;
+  font-weight: bold;
+}
+#fall {
+  margin-top: 0px;
+  font-size: 10px;
+}
+.content2 {
+  display: flex;
+  padding: 5px;
+}
+.anh2 {
+  width: 1000px;
+}
+#basic,
+#congso,
+#muahe {
+  width: 333px;
+  height: 300px;
+}
